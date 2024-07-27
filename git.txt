@@ -4,4 +4,5 @@ git commit -m
 git restore --staged
 git log --oneline
 git log --stat
-git branch
+git branch [branch name]
+git checkout [branch name]
