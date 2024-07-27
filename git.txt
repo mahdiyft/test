@@ -10,3 +10,11 @@ git branch -d [branch name] (delete branch with -d)
 git checkout [branch name]
 git merge user-login
 (we should be in master branch and then merge new branch with it)
+
+we can use checkout to return back to a commit just for reviewing. we can see commit id in git log.
+
+git revert will delete all of its commit effects and do not delete commit.
+we can revert a revert
+use git revert using just for last commit not middle commits. maybe we got conflict error.
+
+git reset is scary. it will delete files exactly. with 3 levels: --soft, --mixed, --hard
