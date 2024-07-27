@@ -5,4 +5,8 @@ git restore --staged
 git log --oneline
 git log --stat
 git branch [branch name]
+git branch -m [old] [new] (change branch name with -m)
+git branch -d [branch name] (delete branch with -d)
 git checkout [branch name]
+git merge user-login
+(we should be in master branch and then merge new branch with it)
