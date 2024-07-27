@@ -18,3 +18,6 @@ we can revert a revert
 use git revert using just for last commit not middle commits. maybe we got conflict error.
 
 git reset is scary. it will delete files exactly. with 3 levels: --soft, --mixed, --hard
+.gitignore -> *.py
+git remote add origin [github repo url]
+git push -u origin master
