@@ -1,0 +1,7 @@
+git status
+git add .
+git commit -m
+git restore --staged
+git log --oneline
+git log --stat
+git branch
